@@ -1,9 +1,10 @@
 import './App.css'
+import copy from '../../content/copy.json'
 
 function App() {
   return (
     <div>
-      <h1>Prosocial Tech</h1>
+      <h1>{copy.hero.title}</h1>
     </div>
   )
 }

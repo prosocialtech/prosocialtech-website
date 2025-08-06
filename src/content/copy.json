@@ -1,0 +1,101 @@
+{
+  "hero": {
+    "title": "Prosocial Tech Collab",
+    "buttons": {
+      "getInvolved": {
+        "label": "Get Involved",
+        "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Colab"
+      },
+      "joinSlack": {
+        "label": "Join Slack",
+        "ariaLabel": "Join the Prosocial Tech Colab Slack group"
+      },
+      "giveInput": {
+        "label": "Give Input",
+        "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Colab"
+      }
+    },
+    "image": {
+      "src": "/images/hero.png",
+      "alt": "Pixel-style logo of Prosocial Tech Colab on a colorful gradient background"
+    }
+  },
+  "intro": {
+    "heading": "Welcome to Prosocial Tech Collab :)",
+    "body": "The goal of Prosocial Tech Colab (PTC) is to provide a dedicated space for people to find collaborators for projects related to prosocial tech, as well as to foster community and resource sharing."
+  },
+  "pillars": {
+    "title": "Three Pillars of PTC",
+    "cards": {
+      "findingCollaborators": {
+        "title": "FINDING COLLABORATORS",
+        "description": "Find collaborators for your existing project, get connected to other people’s projects, or find like-minded people and come up with a project together"
+      },
+      "buildingCommunity": {
+        "title": "BUILDING COMMUNITY",
+        "description": "Organize in-person hangouts, create reading groups, learn about PTC projects by participating in project demo sessions, and meet people during small PTC conversations hosted on gather.town"
+      },
+      "fosteringResourceSharing": {
+        "title": "FOSTERING RESOURCE SHARING",
+        "description": "Share job postings and opportunities in prosocial tech, post about events related to prosocial tech, and share your favorite prosocial technology tools and concepts"
+      }
+    }
+  },
+  "engagement": {
+    "title": "Multiple Ways to Engage",
+    "body": "In addition to serving as a space to find or share prosocial tech projects to collaborate on, our Slack group is where you’ll find info about upcoming PTC project demos and small group discussions hosted on gather.town.",
+    "actions": {
+      "organize": {
+        "label": "Get Involved",
+        "description": "If you want to help organize PTC or moderate on Slack:"
+      },
+      "join": {
+        "label": "Join Slack",
+        "description": "To become a member of our Slack group:"
+      },
+      "feedback": {
+        "label": "Give Input",
+        "description": "If you have feedback or ideas you’d like to share:"
+      },
+      "demo": {
+        "label": "Share Project",
+        "description": "If you want to Demo a project:"
+      }
+    }
+  },
+  "channels": {
+    "title": "PTC Project Channels",
+    "body": "Whether you’re looking to find collaborators for your current project, want to join someone else’s existing project, or are excited about creating something from scratch with like-minded people, PTC has six project channels to choose from:",
+    "list": {
+      "appliedSocialMedia": {
+        "title": "APPLIED SOCIAL MEDIA",
+        "description": "For prosocial apps, platforms, and websites in the alt-social media space, including community-building platforms and mental health interventions"
+      },
+      "artsAndCulture": {
+        "title": "ARTS & CULTURE",
+        "description": "For art projects, exhibits, indie films, advocacy campaigns, and new cultural programs related to prosocial tech"
+      },
+      "civicTech": {
+        "title": "CIVIC TECH",
+        "description": "For projects that enhance the relationship between citizens and government, or projects that promote civic engagement and alternative governance structures"
+      },
+      "journalism": {
+        "title": "JOURNALISM & NARRATIVE",
+        "description": "For journalism projects and narrative outputs related to prosocial tech, such as documentaries, grassroots publications, or contributing to newsletters"
+      },
+      "research": {
+        "title": "RESEARCH",
+        "description": "For research projects related to prosocial tech, as well as other research-related outputs such as conferences and workshops"
+      },
+      "responsibleAI": {
+        "title": "RESPONSIBLE AI",
+        "description": "For responsible AI projects that promote prosocial design, such as improving upon recommender systems or developing open-source tools that support prosocial platforms"
+      }
+    }
+  },
+  "footer": {
+    "closing": "We hope to see you there!",
+    "contact": "Have any questions? Reach out to team@prosocialtechcollab.com",
+    "copyright": "© 2025. All Rights Reserved."
+  }
+}
