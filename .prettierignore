@@ -1,0 +1,31 @@
+# Build artifacts
+build
+dist
+coverage
+*.log
+
+# Dependencies
+node_modules
+
+# Asset types
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.webp
+
+# Output
+*.zip
+*.tar.gz
+
+# Env/config
+.env
+.env.* # optional if you use multiple env files
+.vitepress
+.next
+.cache
+turbo
+.idea
+.vscode
