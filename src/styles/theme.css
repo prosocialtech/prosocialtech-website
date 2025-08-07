@@ -1,0 +1,63 @@
+@theme {
+  /* override the colour namespace with custom values */
+  --color-*: initial;
+
+  --color-blue-500: #b0e9fe;
+  --color-blue-900: #23194a;
+
+  --color-pink-500: #efceff;
+
+  --color-orange-500: #ffd09b;
+
+  --color-neutral-50: #fafafa;
+  --color-neutral-100: #f5f5f5;
+  --color-neutral-200: #e5e5e5;
+  --color-neutral-300: #d4d4d4;
+  --color-neutral-400: #a3a3a3;
+  --color-neutral-500: #737373;
+  --color-neutral-600: #525252;
+  --color-neutral-700: #404040;
+  --color-neutral-800: #262626;
+  --color-neutral-900: #171717;
+
+  --spacing-*: initial;
+  --spacing-2xs: 0.25rem; /* 4px */
+  --spacing-xs: 0.5rem; /* 8px */
+  --spacing-sm: 1rem; /* 16px */
+  --spacing-md: 1.5rem; /* 24px */
+  --spacing-lg: 2rem; /* 32px */
+  --spacing-xl: 3.75rem; /* 60px */
+  --spacing-2xl: 5rem; /* 80px */
+  --spacing-3xl: 7.5rem; /* 120px */
+
+  --border-radius-sm: 0.125rem; /* 2px */
+  --border-radius-md: 0.25rem; /* 4px */
+  --border-radius-lg: 0.5rem; /* 8px */
+  --border-radius-xl: 0.75rem; /* 12px */
+
+  /* Font families */
+  --font-*: initial;
+  --font-family-system: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --font-family-serif: 'Miriam Libre', serif;
+
+  /* Font weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Font sizes */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-sm: 0.875rem; /* 14px */
+  --font-size-base: 1rem; /* 16px */
+  --font-size-md: 1.125rem; /* 18px */
+  --font-size-lg: 1.25rem; /* 20px */
+  --font-size-xl: 1.5rem; /* 24px */
+
+  /* Line heights */
+  --line-height-tight: 1.25;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 2.1;
+
+  /* Letter spacing */
+  --letter-spacing-normal: 0;
+}
