@@ -20,6 +20,10 @@
   --color-neutral-800: #262626;
   --color-neutral-900: #171717;
 
+  --color-gradient-1: #9bd2f2;
+  --color-gradient-2: #ffb995;
+  --color-gradient-3: #9ff7c1;
+
   --spacing-*: initial;
   --spacing-2xs: 0.25rem; /* 4px */
   --spacing-xs: 0.5rem; /* 8px */

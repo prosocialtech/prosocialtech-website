@@ -8,9 +8,9 @@ const Section = ({ variant = 'dark', children, className }: SectionProps) => {
   const variants = {
     light: 'bg-light',
     dark: 'bg-dark',
-    'gradient-1': 'bg-[#9BD2F2]',
-    'gradient-2': 'bg-[#FFB995]',
-    'gradient-3': 'bg-[#9FF7C1]',
+    'gradient-1': 'bg-gradient-1',
+    'gradient-2': 'bg-gradient-2',
+    'gradient-3': 'bg-gradient-3',
   }
   return (
     <section
