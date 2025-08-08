@@ -20,9 +20,9 @@
       "alt": "Pixel-style logo of Prosocial Tech Colab on a colorful gradient background"
     }
   },
-  "intro": {
-    "heading": "Welcome to Prosocial Tech Collab :)",
-    "body": "The goal of Prosocial Tech Colab (PTC) is to provide a dedicated space for people to find collaborators for projects related to prosocial tech, as well as to foster community and resource sharing."
+  "about": {
+    "title": "Welcome to Prosocial Tech Collab :)",
+    "body": "The goal of Prosocial Tech Collab (PTC) is to provide a dedicated space for people to find collaborators for projects related to prosocial tech, as well as to foster community and resource sharing."
   },
   "pillars": {
     "title": "Three Pillars of PTC",
@@ -41,7 +41,7 @@
       }
     }
   },
-  "engagement": {
+  "engage": {
     "title": "Multiple Ways to Engage",
     "body": "In addition to serving as a space to find or share prosocial tech projects to collaborate on, our Slack group is where you’ll find info about upcoming PTC project demos and small group discussions hosted on gather.town.",
     "actions": {
@@ -94,7 +94,7 @@
     }
   },
   "footer": {
-    "closing": "We hope to see you there!",
+    "title": "We hope to see you there!",
     "contact": "Have any questions? Reach out to team@prosocialtechcollab.com",
     "copyright": "© 2025. All Rights Reserved."
   }
