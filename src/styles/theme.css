@@ -57,6 +57,7 @@
   --font-size-md: 1.125rem; /* 18px */
   --font-size-lg: 1.25rem; /* 20px */
   --font-size-xl: 1.5rem; /* 24px */
+  --font-size-header: 2.6rem; /* 42px */
 
   /* Line heights */
   --line-height-tight: 1.25;
@@ -73,7 +74,7 @@
 
   /* Stroke widths */
   --stroke-width-thin: 0.5px;
-  --stroke-width-thick: 1.5px;
+  --stroke-width-thick: 1px;
 
   /* Layout */
   --max-width-sm: 768px;

@@ -56,7 +56,7 @@ body {
   .section-heading-primary {
     /* used for following sections: about, engage, footer */
     font-family: var(--font-family-heading-primary);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-header);
     font-weight: normal;
     line-height: var(--line-height-normal);
     letter-spacing: var(--letter-spacing-wide);
@@ -67,7 +67,7 @@ body {
   .section-heading-secondary {
     /* used for following sections: pillar, channels  */
     font-family: var(--font-family-heading-primary);
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-header);
     font-weight: normal;
     line-height: var(--line-height-normal);
     letter-spacing: var(--letter-spacing-wide);
