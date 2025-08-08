@@ -70,4 +70,9 @@
   /* Stroke widths */
   --stroke-width-thin: 0.5px;
   --stroke-width-thick: 1.5px;
+
+  /* Layout */
+  --max-width-sm: 768px;
+  --max-width-md: 960px;
+  --max-width-lg: 1120px;
 }
