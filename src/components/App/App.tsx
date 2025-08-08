@@ -1,14 +1,15 @@
 import './App.css'
 import copy from '../../content/copy.json'
 import Container from '../layout/container/Container'
+import Section from '../layout/section/Section'
 
 function App() {
   return (
-    <Container>
-      <div className="bg-blue-900">
+    <Section variant="dark">
+      <Container>
         <h1 className="section-heading-primary">{copy.hero.title}</h1>
-      </div>
-    </Container>
+      </Container>
+    </Section>
   )
 }
 
