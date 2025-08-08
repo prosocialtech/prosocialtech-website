@@ -39,6 +39,7 @@
   --font-*: initial;
   --font-family-system: system-ui, Avenir, Helvetica, Arial, sans-serif;
   --font-family-serif: 'Miriam Libre', serif;
+  --font-family-heading-primary: 'Karma Suture', serif;
 
   /* Font weights */
   --font-weight-normal: 400;
@@ -60,4 +61,13 @@
 
   /* Letter spacing */
   --letter-spacing-normal: 0;
+  --letter-spacing-wide: 2px;
+
+  /* Shadow colors */
+  --shadow-color-primary: #8153ff;
+  --shadow-color-secondary: #7a147a;
+
+  /* Stroke widths */
+  --stroke-width-thin: 0.5px;
+  --stroke-width-thick: 1.5px;
 }

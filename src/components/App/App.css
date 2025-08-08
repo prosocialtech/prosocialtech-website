@@ -52,4 +52,26 @@ body {
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
   }
+
+  .section-heading-primary {
+    /* used for following sections: about, engage, footer */
+    font-family: var(--font-family-heading-primary);
+    font-size: var(--font-size-xl);
+    font-weight: normal;
+    line-height: var(--line-height-normal);
+    letter-spacing: var(--letter-spacing-wide);
+    text-shadow: 2px 2px 0 var(--shadow-color-primary);
+    -webkit-text-stroke: var(--stroke-width-thin) #000;
+  }
+
+  .section-heading-secondary {
+    /* used for following sections: pillar, channels  */
+    font-family: var(--font-family-heading-primary);
+    font-size: var(--font-size-xl);
+    font-weight: normal;
+    line-height: var(--line-height-normal);
+    letter-spacing: var(--letter-spacing-wide);
+    text-shadow: 2px 2px 0 var(--shadow-color-secondary);
+    -webkit-text-stroke: var(--stroke-width-thick) #000;
+  }
 }
