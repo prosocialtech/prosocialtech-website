@@ -9,6 +9,8 @@
 
   --color-orange-500: #ffd09b;
 
+  --color-black: #000000;
+
   --color-neutral-50: #fafafa;
   --color-neutral-100: #f5f5f5;
   --color-neutral-200: #e5e5e5;
@@ -74,10 +76,55 @@
 
   /* Stroke widths */
   --stroke-width-thin: 0.5px;
-  --stroke-width-thick: 1px;
+  --stroke-width-thick: 2px;
 
   /* Layout */
   --max-width-sm: 768px;
   --max-width-md: 960px;
   --max-width-lg: 1120px;
+
+  /* Pillars */
+  --card-mint-body: #d7ffd7;
+  --card-mint-bar: #fc4e54;
+
+  --card-butter-body: #fff2b0;
+  --card-butter-bar: #a181ff;
+
+  --card-ice-body: #cef2ff;
+  --card-ice-bar: #ffa32f;
+
+  --dot-pillars-collaborators-1: #31f773;
+  --dot-pillars-collaborators-2: #dcffb0;
+  --dot-pillars-collaborators-3: #dcffb0;
+
+  --dot-pillars-community-1: #dcffb0;
+  --dot-pillars-community-2: #ffd117;
+  --dot-pillars-community-3: #dcffb0;
+
+  --dot-pillars-resource-sharing-1: #dcffb0;
+  --dot-pillars-resource-sharing-2: #dcffb0;
+  --dot-pillars-resource-sharing-3: #43ceff;
+
+  /* Channels */
+  --card-lilac-body: #e8dffe;
+  --card-lilac-bar: #9471ff;
+
+  --card-sand-body: #fcf3c8;
+  --card-sand-bar: #fed42f;
+
+  --card-apricot-body: #ffd3a2;
+  --card-apricot-bar: #e9a27a;
+
+  --card-sky-body: #cef2ff;
+  --card-sky-bar: #65befc;
+
+  --card-grass-body: #d7ffd7;
+  --card-grass-bar: #58d16e;
+
+  --card-coral-body: #ffc8b6;
+  --card-coral-bar: #fc4e54;
+
+  --dot-channels-1: #e9a27a;
+  --dot-channels-2: #ffd3a2;
+  --dot-channels-3: #a3d0cb;
 }

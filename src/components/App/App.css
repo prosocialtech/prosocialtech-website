@@ -31,6 +31,13 @@ body {
     background-color: var(--color-blue-900);
   }
 
+  .bg-gradient-2 {
+    background: linear-gradient(160deg, #f495c0 0%, #f8b78e 38%, #f299a5 68%, #b57edc 100%);
+  }
+  .bg-gradient-3 {
+    background: linear-gradient(225deg, #a3eab7 0%, #7be0c3 38%, #65d4d6 68%, #6cc3f0 100%);
+  }
+
   .text-body {
     font-family: var(--font-family-serif);
     font-weight: var(--font-weight-medium);
@@ -44,6 +51,7 @@ body {
     font-size: var(--font-size-md);
     line-height: var(--line-height-normal);
     letter-spacing: var(--letter-spacing-normal);
+    color: var(--color-black);
   }
 
   .text-card-header {
@@ -51,6 +59,14 @@ body {
     font-family: var(--font-family-serif);
     font-size: var(--font-size-xl);
     font-weight: var(--font-weight-bold);
+    color: var(--color-black);
+  }
+
+  .card-shadow {
+    box-shadow:
+      0px 2px 0 #2e2e2e,
+      8px 8px 0 #2e2e2e,
+      8px 8px 15px rgba(0, 0, 0, 0.25);
   }
 
   .section-heading-primary {
@@ -68,10 +84,24 @@ body {
     /* used for following sections: pillar, channels  */
     font-family: var(--font-family-heading-primary);
     font-size: var(--font-size-header);
-    font-weight: normal;
-    line-height: var(--line-height-normal);
+    font-weight: bold;
     letter-spacing: var(--letter-spacing-wide);
-    text-shadow: 2px 2px 0 var(--shadow-color-secondary);
-    -webkit-text-stroke: var(--stroke-width-thick) #000;
+    color: white;
+
+    text-shadow:
+      /* Thicker black outline by stacking multiple offsets */
+      -3px -3px 0 #000,
+      3px -3px 0 #000,
+      -3px 3px 0 #000,
+      3px 3px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      2px 2px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+      1px 1px 0 #000,
+      5px 5px 0 var(--shadow-color-secondary);
   }
 }
