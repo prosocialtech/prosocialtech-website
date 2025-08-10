@@ -2,7 +2,7 @@
 @import '../../styles/theme.css';
 
 body {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: var(--font-family-serif), Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
@@ -13,7 +13,7 @@ body {
 /* Semantic classes and grouped styles to ensure consistency */
 @layer utilities {
   .text-on-light {
-    color: var(--color-blue-900);
+    color: var(--color-neutral-900);
   }
   .text-on-dark {
     color: var(--color-neutral-50);
@@ -73,5 +73,52 @@ body {
     letter-spacing: var(--letter-spacing-wide);
     text-shadow: 2px 2px 0 var(--shadow-color-secondary);
     -webkit-text-stroke: var(--stroke-width-thick) #000;
+  }
+
+  .btn {
+    border: 1px solid var(--color-neutral-900);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-xs) var(--spacing-sm);
+    font-weight: var(--font-weight-semi-bold);
+    box-shadow:
+      inset -4px -4px 0 rgba(0, 0, 0, 0.3),
+      inset 4px 4px 0 rgba(255, 255, 255, 0.5);
+    transition:
+      filter 0.1s ease,
+      box-shadow 0.1s ease;
+  }
+
+  .btn:hover {
+    filter: brightness(0.9);
+    box-shadow:
+      inset -2px -2px 0 rgba(0, 0, 0, 0.3),
+      inset 2px 2px 0 rgba(255, 255, 255, 0.5);
+  }
+
+  /* Active - darken + invert bevel (pressed in) */
+  .btn:active {
+    filter: brightness(0.9);
+    box-shadow:
+      inset 2px 2px 0 rgba(0, 0, 0, 0.4),
+      inset -2px -2px 0 rgba(255, 255, 255, 0.3);
+  }
+
+  /* Focus - accessibility outline */
+  .btn:focus-visible {
+    outline: 2px solid var(--color-neutral-900);
+    outline-offset: 2px;
+  }
+
+  .btn-primary {
+    background-color: var(--color-green-500);
+  }
+  .btn-secondary {
+    background-color: var(--color-blue-500);
+  }
+  .btn-tertiary {
+    background-color: var(--color-pink-500);
+  }
+  .btn-quaternary {
+    background-color: var(--color-orange-500);
   }
 }

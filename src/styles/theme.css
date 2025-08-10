@@ -9,6 +9,8 @@
 
   --color-orange-500: #ffd09b;
 
+  --color-green-500: #baf4af;
+
   --color-neutral-50: #fafafa;
   --color-neutral-100: #f5f5f5;
   --color-neutral-200: #e5e5e5;
@@ -48,6 +50,7 @@
   /* Font weights */
   --font-weight-normal: 400;
   --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
   --font-weight-bold: 700;
 
   /* Font sizes */
