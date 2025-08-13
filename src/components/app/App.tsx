@@ -4,6 +4,7 @@ import Container from '../layout/container/Container'
 import Section from '../layout/section/Section'
 import Layout from '../../layouts/Layout'
 import Card from '../layout/card/Card'
+import Hero from '../sections/hero/Hero'
 
 function App() {
   // Common props for pillar cards to reduce repetition
@@ -32,12 +33,7 @@ function App() {
 
   return (
     <Layout>
-      {/* Hero Section */}
-      <Section variant="gradient-1">
-        <Container>
-          <h1 className="section-heading-primary">{copy.hero.title}</h1>
-        </Container>
-      </Section>
+      <Hero data={copy.hero} />
 
       {/* About Section */}
       <Section variant="dark">

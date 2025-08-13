@@ -1,10 +1,12 @@
 import type { ReactNode } from 'react'
 
+export type ButtonVariant = 'primary' | 'secondary' | 'tertiary' | 'quaternary'
+
 interface ButtonProps {
   href: string
   children: ReactNode
   className?: string
-  variant?: 'primary' | 'secondary' | 'tertiary' | 'quaternary'
+  variant?: ButtonVariant
   ariaLabel?: string
   target?: '_blank' | '_self' | '_parent' | '_top'
   rel?: string

@@ -1,24 +1,29 @@
 {
   "hero": {
-    "title": "Prosocial Tech Collab",
-    "buttons": {
-      "getInvolved": {
-        "label": "Get Involved",
-        "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Colab"
-      },
-      "joinSlack": {
-        "label": "Join Slack",
-        "ariaLabel": "Join the Prosocial Tech Colab Slack group"
-      },
-      "giveInput": {
-        "label": "Give Input",
-        "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Colab"
+    "title": {
+      "label": "Prosocial Tech Collab",
+      "image": {
+        "src": "/images/hero-title.svg",
+        "alt": "Prosocial Tech Collab"
       }
     },
-    "image": {
-      "src": "/images/hero.png",
-      "alt": "Pixel-style logo of Prosocial Tech Colab on a colorful gradient background"
-    }
+    "buttons": [
+      {
+        "label": "Get Involved",
+        "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Colab",
+        "href": "#get-involved"
+      },
+      {
+        "label": "Join Slack",
+        "ariaLabel": "Join the Prosocial Tech Colab Slack group",
+        "href": "#join-slack"
+      },
+      {
+        "label": "Give Input",
+        "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Colab",
+        "href": "#give-input"
+      }
+    ]
   },
   "about": {
     "title": "Welcome to Prosocial Tech Collab :)",
