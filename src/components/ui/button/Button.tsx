@@ -5,8 +5,23 @@ interface ButtonProps {
   children: ReactNode
   className?: string
   variant?: 'primary' | 'secondary' | 'tertiary' | 'quaternary'
+  ariaLabel?: string
+  target?: '_blank' | '_self' | '_parent' | '_top'
+  rel?: string
+  disabled?: boolean
+  onClick?: () => void
 }
-const Button = ({ href, children, className, variant = 'primary' }: ButtonProps) => {
+const Button = ({
+  href,
+  children,
+  className,
+  variant = 'primary',
+  ariaLabel,
+  target,
+  rel,
+  disabled,
+  onClick,
+}: ButtonProps) => {
   const variants = {
     primary: 'btn-primary',
     secondary: 'btn-secondary',
@@ -14,7 +29,15 @@ const Button = ({ href, children, className, variant = 'primary' }: ButtonProps)
     quaternary: 'btn-quaternary',
   }
   return (
-    <a href={href} className={`btn text-on-light ${variants[variant]} ${className || ''}`}>
+    <a
+      href={href}
+      className={`btn text-on-light ${variants[variant]} ${className || ''}`}
+      aria-label={ariaLabel}
+      target={target}
+      rel={rel}
+      aria-disabled={disabled}
+      onClick={onClick}
+    >
       {children}
     </a>
   )

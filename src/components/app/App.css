@@ -119,15 +119,15 @@ body {
   }
 
   .btn:hover {
-    filter: brightness(0.9);
-    box-shadow:
+    filter: brightness(0.87);
+    /* box-shadow:
       inset -2px -2px 0 rgba(0, 0, 0, 0.3),
-      inset 2px 2px 0 rgba(255, 255, 255, 0.5);
+      inset 2px 2px 0 rgba(255, 255, 255, 0.5); */
   }
 
   /* Active - darken + invert bevel (pressed in) */
   .btn:active {
-    filter: brightness(0.9);
+    filter: brightness(0.87);
     box-shadow:
       inset 2px 2px 0 rgba(0, 0, 0, 0.4),
       inset -2px -2px 0 rgba(255, 255, 255, 0.3);
