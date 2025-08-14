@@ -3,7 +3,7 @@
     "title": {
       "label": "Prosocial Tech Collab",
       "image": {
-        "src": "/images/hero-title.svg",
+        "src": "./assets/hero-title.svg",
         "alt": "Prosocial Tech Collab"
       }
     },

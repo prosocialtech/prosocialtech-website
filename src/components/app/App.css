@@ -26,9 +26,8 @@ body {
     background-color: var(--color-neutral-50);
   }
 
-  .bg-gradient {
-    /* To update once we know how we're handling gradients */
-    background-color: var(--color-blue-900);
+  .bg-gradient-1 {
+    background: var(--color-gradient-1);
   }
 
   .bg-gradient-2 {
@@ -37,6 +36,7 @@ body {
   .bg-gradient-3 {
     background: linear-gradient(225deg, #a3eab7 0%, #7be0c3 38%, #65d4d6 68%, #6cc3f0 100%);
   }
+
 
   .text-body {
     font-family: var(--font-family-serif);
@@ -108,11 +108,11 @@ body {
   .btn {
     border: 1px solid var(--color-neutral-900);
     border-radius: var(--border-radius-md);
-    padding: var(--spacing-xs) var(--spacing-sm);
+    padding: 0.75rem 1rem;
     font-weight: var(--font-weight-semi-bold);
     box-shadow:
-      inset -4px -4px 0 rgba(0, 0, 0, 0.3),
-      inset 4px 4px 0 rgba(255, 255, 255, 0.5);
+      inset -6px -6px 0 rgba(0, 0, 0, 0.3),
+      inset 6px 6px 0 rgba(255, 255, 255, 0.5);
     transition:
       filter 0.1s ease,
       box-shadow 0.1s ease;

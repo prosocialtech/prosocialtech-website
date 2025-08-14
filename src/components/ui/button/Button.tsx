@@ -33,7 +33,7 @@ const Button = ({
   return (
     <a
       href={href}
-      className={`btn text-on-light ${variants[variant]} ${className || ''}`}
+      className={`btn text-on-light ${variants[variant]} min-w-24 sm:min-w-36 flex-1 sm:flex-none ${className || ''}`}
       aria-label={ariaLabel}
       target={target}
       rel={rel}

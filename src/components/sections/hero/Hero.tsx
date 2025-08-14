@@ -7,7 +7,7 @@ interface HeroProps {
   data: {
     title: {
       label: string
-      image: {
+      image?: {
         src: string
         alt: string
       }
@@ -21,15 +21,27 @@ interface HeroProps {
 }
 
 const Hero = ({ data }: HeroProps) => {
+  if (data.buttons.length === 0) {
+    throw new Error('Hero requires at least 1 button')
+  }
+
   /* Limit the hero CTAS to specific variants and order*/
   const HERO_BUTTON_VARIANTS: ButtonVariant[] = ['primary', 'secondary', 'tertiary']
 
   return (
     <Section variant="gradient-1">
-      <Container>
+      <Container size="xs" className="pt-10">
         <div className="flex flex-col items-center">
-          <h1 className="section-heading-primary">{data.title.label}</h1>
-          <div className="flex gap-lg">
+          {data.title.image ? (
+            <img
+              src={data.title.image.src}
+              alt={data.title.image.alt}
+              className="w-full h-auto max-w-full mb-2xl"
+            />
+          ) : (
+            <h1 className="section-heading-primary">{data.title.label}</h1>
+          )}
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-lg sm:justify-center w-full">
             {data.buttons.map((button, index) => {
               return (
                 //   Using index as key for now since buttons list is stable

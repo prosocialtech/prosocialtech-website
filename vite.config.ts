@@ -3,8 +3,8 @@ import tailwindcss from '@tailwindcss/vite'
 import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
   plugins: [react(), tailwindcss()],
-  // Change to / once setup with custom domain
-  base: '/prosocialtech-website/',
-})
+  // GitHub Pages needs /prosocialtech-website/ for dev, / for production
+  base: mode === 'production' ? '/' : '/prosocialtech-website/',
+}))
