@@ -5,6 +5,8 @@ import Section from '../layout/section/Section'
 import Layout from '../../layouts/Layout'
 import Card from '../layout/card/Card'
 import Hero from '../sections/hero/Hero'
+import Button from '../ui/button/Button'
+import type { ButtonVariant } from '../ui/button/Button'
 
 function App() {
   // Common props for pillar cards to reduce repetition
@@ -68,6 +70,22 @@ function App() {
         <Container className="text-left space-y-8">
           <h1 className="section-heading-primary">{copy.engage.title}</h1>
           <p className="text-body">{copy.engage.body}</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2xl max-w-xs mx-auto mt-2xl">
+            {copy.engage.actions.map((action, index) => {
+              /* Enforcing that this component will always have 1 of each variant in this order
+              but will likely eventually extend so that the variants and order are customizable*/
+              const variants: ButtonVariant[] = ['primary', 'secondary', 'tertiary', 'quaternary']
+              const button = action.button
+              return (
+                <div key={index} className="flex flex-col items-center text-center gap-4">
+                  <p className="text-body">{action.description}</p>
+                  <Button href={button.href} ariaLabel={button.ariaLabel} variant={variants[index]}>
+                    {button.label}
+                  </Button>
+                </div>
+              )
+            })}
+          </div>
         </Container>
       </Section>
 
