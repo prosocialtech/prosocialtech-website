@@ -9,6 +9,8 @@
 
   --color-orange-500: #ffd09b;
 
+  --color-green-500: #baf4af;
+
   --color-black: #000000;
 
   --color-neutral-50: #fafafa;
@@ -22,7 +24,17 @@
   --color-neutral-800: #262626;
   --color-neutral-900: #171717;
 
-  --color-gradient-1: #9bd2f2;
+  --color-gradient-1:
+    radial-gradient(
+      ellipse at 20% 80%,
+      #b8a8e8 0%,
+      #b8a8e8 35%,
+      #a3d5e8 60%,
+      #b8e0c4 80%,
+      #e8cfa4 90%,
+      #ffe4a3 100%
+    ),
+    radial-gradient(circle at 85% 15%, #b8a8e8 0%, rgba(184, 168, 232, 0) 25%), #b8e0c4;
   --color-gradient-2: #ffb995;
   --color-gradient-3: #9ff7c1;
 
@@ -50,6 +62,7 @@
   /* Font weights */
   --font-weight-normal: 400;
   --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
   --font-weight-bold: 700;
 
   /* Font sizes */
@@ -79,6 +92,7 @@
   --stroke-width-thick: 2px;
 
   /* Layout */
+  --max-width-xs: 650px;
   --max-width-sm: 768px;
   --max-width-md: 960px;
   --max-width-lg: 1120px;

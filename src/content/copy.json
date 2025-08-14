@@ -1,24 +1,29 @@
 {
   "hero": {
-    "title": "Prosocial Tech Collab",
-    "buttons": {
-      "getInvolved": {
-        "label": "Get Involved",
-        "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Colab"
-      },
-      "joinSlack": {
-        "label": "Join Slack",
-        "ariaLabel": "Join the Prosocial Tech Colab Slack group"
-      },
-      "giveInput": {
-        "label": "Give Input",
-        "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Colab"
+    "title": {
+      "label": "Prosocial Tech Collab",
+      "image": {
+        "src": "./assets/hero-title.svg",
+        "alt": "Prosocial Tech Collab"
       }
     },
-    "image": {
-      "src": "/images/hero.png",
-      "alt": "Pixel-style logo of Prosocial Tech Colab on a colorful gradient background"
-    }
+    "buttons": [
+      {
+        "label": "Get Involved",
+        "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Colab",
+        "href": "#get-involved"
+      },
+      {
+        "label": "Join Slack",
+        "ariaLabel": "Join the Prosocial Tech Colab Slack group",
+        "href": "#join-slack"
+      },
+      {
+        "label": "Give Input",
+        "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Colab",
+        "href": "#give-input"
+      }
+    ]
   },
   "about": {
     "title": "Welcome to Prosocial Tech Collab :)",
@@ -44,24 +49,40 @@
   "engage": {
     "title": "Multiple Ways to Engage",
     "body": "In addition to serving as a space to find or share prosocial tech projects to collaborate on, our Slack group is where you’ll find info about upcoming PTC project demos and small group discussions hosted on gather.town.",
-    "actions": {
-      "organize": {
-        "label": "Get Involved",
-        "description": "If you want to help organize PTC or moderate on Slack:"
+    "actions": [
+      {
+        "description": "If you want to help organize PTC or moderate on Slack:",
+        "button": {
+          "label": "Get Involved",
+          "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Colab",
+          "href": "#get-involved"
+        }
       },
-      "join": {
-        "label": "Join Slack",
-        "description": "To become a member of our Slack group:"
+      {
+        "description": "To become a member of our Slack group:",
+        "button": {
+          "label": "Join Slack",
+          "ariaLabel": "Join the Prosocial Tech Colab Slack group", 
+          "href": "#join-slack"
+        }
       },
-      "feedback": {
-        "label": "Give Input",
-        "description": "If you have feedback or ideas you’d like to share:"
+      {
+        "description": "If you have feedback or ideas you'd like to share:",
+        "button": {
+          "label": "Give Input",
+          "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Colab",
+          "href": "#give-input"
+        }
       },
-      "demo": {
-        "label": "Share Project",
-        "description": "If you want to Demo a project:"
+      {
+        "description": "If you want to Demo a project:",
+        "button": {
+          "label": "Share Project",
+          "ariaLabel": "Share your project for demo at Prosocial Tech Colab",
+          "href": "#share-project"
+        }
       }
-    }
+    ]
   },
   "channels": {
     "title": "PTC Project Channels",
