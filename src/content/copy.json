@@ -16,7 +16,7 @@
       {
         "label": "Join Slack",
         "ariaLabel": "Join the Prosocial Tech Collab Slack group",
-        "href": "#join-slack"
+        "href": "https://join.slack.com/t/prosocialtechcollab/shared_invite/zt-395d6ihq9-IU7mans63eshiYEYvzSJIQ"
       },
       {
         "label": "Give Input",
@@ -63,7 +63,7 @@
         "button": {
           "label": "Join Slack",
           "ariaLabel": "Join the Prosocial Tech Collab Slack group",
-          "href": "#join-slack"
+          "href": "https://join.slack.com/t/prosocialtechcollab/shared_invite/zt-395d6ihq9-IU7mans63eshiYEYvzSJIQ"
         }
       },
       {
