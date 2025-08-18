@@ -10,18 +10,18 @@
     "buttons": [
       {
         "label": "Get Involved",
-        "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Colab",
-        "href": "#get-involved"
+        "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Collab",
+        "href": "https://docs.google.com/forms/d/1P0B5vMC9FdvOCCGC8UhxbQDcjVrK2eXltHj1NH0vCpY/viewform?edit_requested=true"
       },
       {
         "label": "Join Slack",
-        "ariaLabel": "Join the Prosocial Tech Colab Slack group",
-        "href": "#join-slack"
+        "ariaLabel": "Join the Prosocial Tech Collab Slack group",
+        "href": "https://join.slack.com/t/prosocialtechcollab/shared_invite/zt-395d6ihq9-IU7mans63eshiYEYvzSJIQ"
       },
       {
         "label": "Give Input",
-        "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Colab",
-        "href": "#give-input"
+        "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Collab",
+        "href": "https://docs.google.com/forms/d/11KxjunnXiuMPjpHoQP0dW4vYxIOa67erDwYVUUkSKWw/viewform?usp=drivesdk&edit_requested=true"
       }
     ]
   },
@@ -54,32 +54,32 @@
         "description": "If you want to help organize PTC or moderate on Slack:",
         "button": {
           "label": "Get Involved",
-          "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Colab",
-          "href": "#get-involved"
+          "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Collab",
+          "href": "https://docs.google.com/forms/d/1P0B5vMC9FdvOCCGC8UhxbQDcjVrK2eXltHj1NH0vCpY/viewform?edit_requested=true"
         }
       },
       {
         "description": "To become a member of our Slack group:",
         "button": {
           "label": "Join Slack",
-          "ariaLabel": "Join the Prosocial Tech Colab Slack group", 
-          "href": "#join-slack"
+          "ariaLabel": "Join the Prosocial Tech Collab Slack group",
+          "href": "https://join.slack.com/t/prosocialtechcollab/shared_invite/zt-395d6ihq9-IU7mans63eshiYEYvzSJIQ"
         }
       },
       {
         "description": "If you have feedback or ideas you'd like to share:",
         "button": {
           "label": "Give Input",
-          "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Colab",
-          "href": "#give-input"
+          "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Collab",
+          "href": "https://docs.google.com/forms/d/11KxjunnXiuMPjpHoQP0dW4vYxIOa67erDwYVUUkSKWw/viewform?usp=drivesdk&edit_requested=true"
         }
       },
       {
         "description": "If you want to Demo a project:",
         "button": {
           "label": "Share Project",
-          "ariaLabel": "Share your project for demo at Prosocial Tech Colab",
-          "href": "#share-project"
+          "ariaLabel": "Share your project for demo at Prosocial Tech Collab",
+          "href": "https://docs.google.com/forms/d/10HzwdmQyDAkzm6oaoVx2CQE0BjE2ii-m7ZW6w6I8DNg/viewform?usp=drivesdk&edit_requested=true"
         }
       }
     ]

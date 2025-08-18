@@ -50,6 +50,7 @@ const Hero = ({ data }: HeroProps) => {
                   href={button.href}
                   variant={HERO_BUTTON_VARIANTS[index]}
                   ariaLabel={button.ariaLabel}
+                  target="_blank"
                 >
                   {button.label}
                 </Button>

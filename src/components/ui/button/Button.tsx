@@ -36,7 +36,7 @@ const Button = ({
       className={`btn text-on-light ${variants[variant]} min-w-24 sm:min-w-36 w-full sm:w-auto ${className || ''}`}
       aria-label={ariaLabel}
       target={target}
-      rel={rel}
+      rel={target === '_blank' ? rel || 'noopener noreferrer' : rel}
       aria-disabled={disabled}
       onClick={onClick}
     >
