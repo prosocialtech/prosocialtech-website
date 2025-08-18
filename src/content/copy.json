@@ -10,17 +10,17 @@
     "buttons": [
       {
         "label": "Get Involved",
-        "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Colab",
+        "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Collab",
         "href": "#get-involved"
       },
       {
         "label": "Join Slack",
-        "ariaLabel": "Join the Prosocial Tech Colab Slack group",
+        "ariaLabel": "Join the Prosocial Tech Collab Slack group",
         "href": "#join-slack"
       },
       {
         "label": "Give Input",
-        "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Colab",
+        "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Collab",
         "href": "#give-input"
       }
     ]
@@ -54,7 +54,7 @@
         "description": "If you want to help organize PTC or moderate on Slack:",
         "button": {
           "label": "Get Involved",
-          "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Colab",
+          "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Collab",
           "href": "#get-involved"
         }
       },
@@ -62,7 +62,7 @@
         "description": "To become a member of our Slack group:",
         "button": {
           "label": "Join Slack",
-          "ariaLabel": "Join the Prosocial Tech Colab Slack group", 
+          "ariaLabel": "Join the Prosocial Tech Collab Slack group",
           "href": "#join-slack"
         }
       },
@@ -70,7 +70,7 @@
         "description": "If you have feedback or ideas you'd like to share:",
         "button": {
           "label": "Give Input",
-          "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Colab",
+          "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Collab",
           "href": "#give-input"
         }
       },
@@ -78,7 +78,7 @@
         "description": "If you want to Demo a project:",
         "button": {
           "label": "Share Project",
-          "ariaLabel": "Share your project for demo at Prosocial Tech Colab",
+          "ariaLabel": "Share your project for demo at Prosocial Tech Collab",
           "href": "#share-project"
         }
       }
