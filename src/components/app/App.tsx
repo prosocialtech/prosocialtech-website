@@ -79,7 +79,12 @@ function App() {
               return (
                 <div key={index} className="flex flex-col items-center text-center gap-4">
                   <p className="text-body">{action.description}</p>
-                  <Button href={button.href} ariaLabel={button.ariaLabel} variant={variants[index]}>
+                  <Button
+                    href={button.href}
+                    ariaLabel={button.ariaLabel}
+                    variant={variants[index]}
+                    target="_blank"
+                  >
                     {button.label}
                   </Button>
                 </div>

@@ -11,7 +11,7 @@
       {
         "label": "Get Involved",
         "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Collab",
-        "href": "#get-involved"
+        "href": "https://docs.google.com/forms/d/1P0B5vMC9FdvOCCGC8UhxbQDcjVrK2eXltHj1NH0vCpY/viewform?edit_requested=true"
       },
       {
         "label": "Join Slack",
@@ -21,7 +21,7 @@
       {
         "label": "Give Input",
         "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Collab",
-        "href": "#give-input"
+        "href": "https://docs.google.com/forms/d/11KxjunnXiuMPjpHoQP0dW4vYxIOa67erDwYVUUkSKWw/viewform?usp=drivesdk&edit_requested=true"
       }
     ]
   },
@@ -55,7 +55,7 @@
         "button": {
           "label": "Get Involved",
           "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Collab",
-          "href": "#get-involved"
+          "href": "https://docs.google.com/forms/d/1P0B5vMC9FdvOCCGC8UhxbQDcjVrK2eXltHj1NH0vCpY/viewform?edit_requested=true"
         }
       },
       {
@@ -71,7 +71,7 @@
         "button": {
           "label": "Give Input",
           "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Collab",
-          "href": "#give-input"
+          "href": "https://docs.google.com/forms/d/11KxjunnXiuMPjpHoQP0dW4vYxIOa67erDwYVUUkSKWw/viewform?usp=drivesdk&edit_requested=true"
         }
       },
       {
@@ -79,7 +79,7 @@
         "button": {
           "label": "Share Project",
           "ariaLabel": "Share your project for demo at Prosocial Tech Collab",
-          "href": "#share-project"
+          "href": "https://docs.google.com/forms/d/10HzwdmQyDAkzm6oaoVx2CQE0BjE2ii-m7ZW6w6I8DNg/viewform?usp=drivesdk&edit_requested=true"
         }
       }
     ]
