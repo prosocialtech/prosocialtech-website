@@ -37,7 +37,6 @@ body {
     background: linear-gradient(225deg, #a3eab7 0%, #7be0c3 38%, #65d4d6 68%, #6cc3f0 100%);
   }
 
-
   .text-body {
     font-family: var(--font-family-serif);
     font-weight: var(--font-weight-medium);
@@ -72,7 +71,7 @@ body {
   .section-heading-primary {
     /* used for following sections: about, engage, footer */
     font-family: var(--font-family-heading-primary);
-    font-size: var(--font-size-header);
+    font-size: var(--font-size-xxl);
     font-weight: normal;
     line-height: var(--line-height-normal);
     letter-spacing: var(--letter-spacing-wide);
@@ -83,7 +82,7 @@ body {
   .section-heading-secondary {
     /* used for following sections: pillar, channels  */
     font-family: var(--font-family-heading-primary);
-    font-size: var(--font-size-header);
+    font-size: var(--font-size-xxl);
     font-weight: bold;
     letter-spacing: var(--letter-spacing-wide);
     color: white;

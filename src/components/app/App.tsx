@@ -39,16 +39,16 @@ function App() {
 
       {/* About Section */}
       <Section variant="dark">
-        <Container className="text-left space-y-8">
-          <h1 className="section-heading-primary">{copy.about.title}</h1>
+        <Container size="sm" className="text-left space-y-8">
+          <h2 className="section-heading-primary">{copy.about.title}</h2>
           <p className="text-body">{copy.about.body}</p>
         </Container>
       </Section>
 
       {/* Pillars Section */}
       <Section variant="gradient-2">
-        <Container>
-          <h1 className="section-heading-secondary">{copy.pillars.title}</h1>
+        <Container size="md">
+          <h2 className="section-heading-secondary">{copy.pillars.title}</h2>
 
           <div className="mt-16 grid gap-20 md:grid-cols-3 justify-center">
             {pillarCards.map(({ variant, key }) => (
@@ -67,8 +67,8 @@ function App() {
 
       {/* Engage Section */}
       <Section variant="dark">
-        <Container className="text-left space-y-8">
-          <h1 className="section-heading-primary">{copy.engage.title}</h1>
+        <Container size="sm" className="text-left space-y-8">
+          <h2 className="section-heading-primary">{copy.engage.title}</h2>
           <p className="text-body">{copy.engage.body}</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2xl max-w-xs mx-auto mt-2xl">
             {copy.engage.actions.map((action, index) => {
@@ -96,8 +96,8 @@ function App() {
 
       {/* Channels Section */}
       <Section variant="gradient-3">
-        <Container>
-          <h1 className="section-heading-secondary">{copy.channels.title}</h1>
+        <Container size="md">
+          <h2 className="section-heading-secondary">{copy.channels.title}</h2>
           <p className="text-body text-black mt-16">{copy.channels.body}</p>
 
           <div className="mt-16 grid md:grid-cols-2 gap-x-20 gap-y-16">
@@ -112,8 +112,8 @@ function App() {
 
       {/* Footer Section */}
       <Section variant="dark">
-        <Container className="text-left space-y-8">
-          <h1 className="section-heading-primary">{copy.footer.title}</h1>
+        <Container size="md" className="text-left space-y-8">
+          <h2 className="section-heading-primary">{copy.footer.title}</h2>
           <p className="text-body">{copy.footer.contact}</p>
           <p className="text-body">{copy.footer.copyright}</p>
         </Container>

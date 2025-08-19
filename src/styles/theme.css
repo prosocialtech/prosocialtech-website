@@ -72,7 +72,7 @@
   --font-size-md: 1.125rem; /* 18px */
   --font-size-lg: 1.25rem; /* 20px */
   --font-size-xl: 1.5rem; /* 24px */
-  --font-size-header: 2.6rem; /* 42px */
+  --font-size-xxl: 2.6rem; /* 42px */
 
   /* Line heights */
   --line-height-tight: 1.25;
@@ -93,8 +93,8 @@
 
   /* Layout */
   --max-width-xs: 650px;
-  --max-width-sm: 768px;
-  --max-width-md: 960px;
+  --max-width-sm: 880px;
+  --max-width-md: 1040px;
   --max-width-lg: 1120px;
 
   /* Pillars */
