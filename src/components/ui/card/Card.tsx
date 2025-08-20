@@ -62,8 +62,8 @@ const THEME: Record<Variant, { body: string; bar: string; dots: string[] }> = {
   },
 }
 
-const BORDER_RADIUS = 28
-const TOP_BAR_BORDER_RADIUS = 24
+// const BORDER_RADIUS = 28
+// const TOP_BAR_BORDER_RADIUS = 24
 
 /**
  * Card component with themed styling and customizable layout options
@@ -149,12 +149,12 @@ export default function Card({
   return (
     <div
       style={{ backgroundColor: v.body }}
-      className={`relative rounded-[${BORDER_RADIUS}px] border-2 border-black/40 card-shadow ${className}`}
+      className={`relative rounded-2xl border-3 border-black/65 card-shadow ${className}`}
     >
       {/* Top bar */}
       <div
         style={{ backgroundColor: v.bar }}
-        className={`h-10 rounded-t-[${TOP_BAR_BORDER_RADIUS}px] border-b-2 border-black/40 ${
+        className={`h-10 rounded-t-xl border-b-2 border-black/65 ${
           barStyle === 'dotsRight'
             ? 'flex items-center justify-end px-4'
             : 'flex items-center justify-between px-4'
@@ -177,9 +177,9 @@ export default function Card({
       </div>
 
       {/* outer ring */}
-      <div
+      {/* <div
         className={`pointer-events-none absolute inset-0 rounded-[${BORDER_RADIUS}px] shadow-[0_0_0_4px_rgba(0,0,0,0.25)]`}
-      />
+      /> */}
     </div>
   )
 }

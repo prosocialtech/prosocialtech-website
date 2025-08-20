@@ -33,11 +33,15 @@ const Hero = ({ data }: HeroProps) => {
       <Container size="xs" className="pt-10">
         <div className="flex flex-col items-center">
           {data.title.image ? (
-            <img
-              src={data.title.image.src}
-              alt={data.title.image.alt}
-              className="w-full h-auto max-w-full mb-2xl"
-            />
+            <>
+              <h1 className="sr-only">{data.title.label}</h1>
+              <img
+                src={data.title.image.src}
+                alt=""
+                aria-hidden="true"
+                className="w-full h-auto max-w-full mb-2xl"
+              />
+            </>
           ) : (
             <h1 className="section-heading-primary">{data.title.label}</h1>
           )}

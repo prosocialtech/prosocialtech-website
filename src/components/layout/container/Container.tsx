@@ -1,18 +1,23 @@
 interface ContainerProps {
-  size?: 'xs' | 'sm' | 'md' | 'lg' | 'none'
+  size: 'xs' | 'sm' | 'md' | 'lg' | 'none'
   children: React.ReactNode
   className?: string
 }
 
-const Container = ({ size = 'md', children, className }: ContainerProps) => {
+const Container = ({ size, children, className }: ContainerProps) => {
   const sizeClasses = {
-    xs: 'max-w-xs', // 650px
-    sm: 'max-w-sm', // 768px
-    md: 'max-w-md', // 960px
-    lg: 'max-w-lg', // 1120px
-    none: 'max-w-none', // no limit
+    xs: 'max-w-xs',
+    sm: 'max-w-sm',
+    md: 'max-w-md',
+    lg: 'max-w-lg',
+    none: '',
   }
-  return <div className={`${sizeClasses[size]} mx-auto px-4 ${className || ''} `}>{children}</div>
+  return (
+    // Either streamline this max-width or add to design system
+    <div className={`${className || ''} ${sizeClasses[size]} mx-auto px-md sm:px-lg max-w-[910px]`}>
+      {children}
+    </div>
+  )
 }
 
 export default Container
