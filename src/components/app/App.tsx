@@ -67,7 +67,7 @@ function App() {
 
       {/* Engage Section */}
       <Section variant="dark">
-        <Container size="sm" className="text-left space-y-8">
+        <Container size="none" className="text-left space-y-8 max-w-5xl">
           <h2 className="section-heading-primary">{copy.engage.title}</h2>
           <p className="text-body">{copy.engage.body}</p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2xl max-w-xs mx-auto mt-2xl">
