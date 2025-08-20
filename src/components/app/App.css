@@ -40,14 +40,16 @@ body {
   .text-body {
     font-family: var(--font-family-serif);
     font-weight: var(--font-weight-medium);
-    font-size: var(--font-size-lg);
-    line-height: var(--line-height-relaxed);
+    font-size: var(--font-size-md);
+    line-height: var(--line-height-semi-relaxed);
     letter-spacing: var(--letter-spacing-normal);
   }
+
   .text-card {
     /* 18px Miriam Libre */
     font-family: var(--font-family-serif);
     font-size: var(--font-size-md);
+    line-height: var(--line-height-semi-relaxed);
     line-height: var(--line-height-normal);
     letter-spacing: var(--letter-spacing-normal);
     color: var(--color-black);
@@ -102,6 +104,20 @@ body {
       -1px 1px 0 #000,
       1px 1px 0 #000,
       5px 5px 0 var(--shadow-color-secondary);
+  }
+
+  /* Using media queries until I refactor the css */
+  @media (min-width: 768px) {
+    .text-body {
+      font-size: var(--font-size-lg);
+    }
+    .section-heading-primary {
+      font-size: var(--font-size-xxxl);
+    }
+
+    .section-heading-secondary {
+      font-size: var(--font-size-xxxl);
+    }
   }
 
   .btn {
