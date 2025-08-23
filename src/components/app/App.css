@@ -84,26 +84,21 @@ body {
   .section-heading-secondary {
     /* used for following sections: pillar, channels  */
     font-family: var(--font-family-heading-primary);
-    font-size: var(--font-size-xxl);
-    font-weight: bold;
+    font-size: var(--font-size-xxxl);
     letter-spacing: var(--letter-spacing-wide);
     color: white;
+  }
 
+  .section-heading-secondary.pillar {
     text-shadow:
-      /* Thicker black outline by stacking multiple offsets */
-      -3px -3px 0 #000,
-      3px -3px 0 #000,
-      -3px 3px 0 #000,
-      3px 3px 0 #000,
-      -2px -2px 0 #000,
-      2px -2px 0 #000,
-      -2px 2px 0 #000,
-      2px 2px 0 #000,
-      -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-      1px 1px 0 #000,
-      5px 5px 0 var(--shadow-color-secondary);
+      var(--shadow-black-outline),
+      4px 4px 0 var(--shadow-color-pillar);
+  }
+
+  .section-heading-secondary.channels {
+    text-shadow:
+      var(--shadow-black-outline),
+      4px 4px 0 var(--shadow-color-channels);
   }
 
   /* Using media queries until I refactor the css */
