@@ -89,13 +89,13 @@ body {
     color: white;
   }
 
-  .section-heading-secondary.pillar {
+  .section-heading-secondary.neutral {
     text-shadow:
       var(--shadow-black-outline),
       4px 4px 0 var(--shadow-color-pillar);
   }
 
-  .section-heading-secondary.channels {
+  .section-heading-secondary.accent {
     text-shadow:
       var(--shadow-black-outline),
       4px 4px 0 var(--shadow-color-channels);
