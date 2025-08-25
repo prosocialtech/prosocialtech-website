@@ -87,7 +87,15 @@
 
   /* Shadow colors */
   --shadow-color-primary: #8153ff;
-  --shadow-color-secondary: #7a147a;
+  --shadow-color-pillar: #7a147a;
+  --shadow-color-channels: #0a852d;
+  --shadow-black-outline:
+    -2px -2px 0 #000000, -2px -1px 0 #000000, -2px 0px 0 #000000, -2px 1px 0 #000000,
+    -2px 2px 0 #000000, -1px -2px 0 #000000, -1px -1px 0 #000000, -1px 0px 0 #000000,
+    -1px 1px 0 #000000, -1px 2px 0 #000000, 0px -2px 0 #000000, 0px -1px 0 #000000,
+    0px 1px 0 #000000, 0px 2px 0 #000000, 1px -2px 0 #000000, 1px -1px 0 #000000, 1px 0px 0 #000000,
+    1px 1px 0 #000000, 1px 2px 0 #000000, 2px -2px 0 #000000, 2px -1px 0 #000000, 2px 0px 0 #000000,
+    2px 1px 0 #000000, 2px 2px 0 #000000;
 
   /* Stroke widths */
   --stroke-width-thin: 0.5px;

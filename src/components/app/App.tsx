@@ -48,7 +48,7 @@ function App() {
       {/* Pillars Section */}
       <Section variant="gradient-2">
         <Container size="md">
-          <h2 className="section-heading-secondary">{copy.pillars.title}</h2>
+          <h2 className="section-heading-secondary neutral">{copy.pillars.title}</h2>
 
           <div className="mt-16 grid gap-20 md:grid-cols-3 justify-center">
             {pillarCards.map(({ variant, key }) => (
@@ -97,7 +97,7 @@ function App() {
       {/* Channels Section */}
       <Section variant="gradient-3">
         <Container size="md">
-          <h2 className="section-heading-secondary">{copy.channels.title}</h2>
+          <h2 className="section-heading-secondary accent">{copy.channels.title}</h2>
           <p className="text-body text-black mt-16">{copy.channels.body}</p>
 
           <div className="mt-16 grid md:grid-cols-2 gap-x-20 gap-y-16">
