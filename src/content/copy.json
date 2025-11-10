@@ -27,7 +27,15 @@
   },
   "about": {
     "title": "Welcome to Prosocial Tech Collab :)",
-    "body": "The goal of Prosocial Tech Collab (PTC) is to provide a dedicated space for people to find collaborators for projects related to prosocial tech, as well as to foster community and resource sharing."
+    "body": "The goal of Prosocial Tech Collab (PTC) is to provide a dedicated space for people to find collaborators for projects related to prosocial tech, as well as to foster community and resource sharing.\n\nWe support builders of prosocial tech, as well as researchers, journalists, artists, and community organizers who are working on projects that advance the goals of prosocial technology.",
+    "more": {
+      "title": "What is Prosocial Technology?",
+      "body": "Prosocial technologies are digital tools, platforms, and systems that have been intentionally designed to promote positive social behaviors and enhance collective wellbeing.\n\nHow prosocial a technology is depends on both its design choices and the market incentives behind it — market incentives are what drive design practices that maximize engagement and profit, even when they come at the expense of user well-being.\n\nFor this reason, we focus on supporting projects that not only apply prosocial design principles, but adopt business practices that are sustainable and non-exploitative.\n\nNot sure if your project is prosocial? This chart from Lisa Schirch and the Kroc Institute for International Peace Studies, the Council on Technology and Social Cohesion, and the Toda Peace Institute is a great reference:",
+      "image": {
+        "src": "./assets/Prosocial Tech Chart.png",
+        "alt": "Prosocial Tech Chart"
+      }
+    }
   },
   "pillars": {
     "title": "Three Pillars of PTC",
@@ -38,7 +46,7 @@
       },
       "buildingCommunity": {
         "title": "BUILDING COMMUNITY",
-        "description": "Organize in-person hangouts, create reading groups, learn about PTC projects by participating in project demo sessions, and meet people during small PTC conversations hosted on gather.town"
+        "description": "Learn about PTC projects by participating in project demo sessions, brainstorm ideas with peers, get support from other practitioners, and meet like-minded people during small PTC gatherings."
       },
       "fosteringResourceSharing": {
         "title": "FOSTERING RESOURCE SHARING",
@@ -48,7 +56,7 @@
   },
   "engage": {
     "title": "Multiple Ways to Engage",
-    "body": "In addition to serving as a space to find or share prosocial tech projects to collaborate on, our Slack group is where you’ll find info about upcoming PTC project demos and small group discussions hosted on gather.town.",
+    "body": "In addition to serving as a space to find or share prosocial tech projects to collaborate on, our Slack group is where you’ll find info about upcoming project demos, social gatherings, support sessions, and small group discussions.",
     "actions": [
       {
         "description": "If you want to help organize PTC or moderate on Slack:",
@@ -86,7 +94,7 @@
   },
   "channels": {
     "title": "PTC Project Channels",
-    "body": "Whether you’re looking to find collaborators for your current project, want to join someone else’s existing project, or are excited about creating something from scratch with like-minded people, PTC has six project channels to choose from:",
+    "body": "Whether you’re looking to find collaborators for your current project, want to join someone else’s existing project, or are excited about creating something from scratch with like-minded people, PTC supports a range of different projects, including but not limited to:",
     "list": {
       "appliedSocialMedia": {
         "title": "APPLIED SOCIAL MEDIA",

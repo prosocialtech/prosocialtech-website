@@ -41,7 +41,32 @@ function App() {
       <Section variant="dark">
         <Container size="sm" className="text-left space-y-8">
           <h2 className="section-heading-primary">{copy.about.title}</h2>
-          <p className="text-body">{copy.about.body}</p>
+          <div className="space-y-4">
+            {copy.about.body.split('\n\n').map((paragraph, index) => (
+              <p key={index} className="text-body">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+          {copy.about.more && (
+            <div className="space-y-6">
+              <h2 className="section-heading-primary">{copy.about.more.title}</h2>
+              <div className="space-y-4">
+                {copy.about.more.body.split('\n\n').map((paragraph, index) => (
+                  <p key={index} className="text-body">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+              {copy.about.more.image?.src && (
+                <img
+                  src={copy.about.more.image.src}
+                  alt={copy.about.more.image.alt || ''}
+                  className="w-full max-w-4xl rounded-md border border-neutral-800"
+                />
+              )}
+            </div>
+          )}
         </Container>
       </Section>
 
