@@ -1,6 +1,12 @@
 import type { ReactNode } from 'react'
 
-export type ButtonVariant = 'primary' | 'secondary' | 'tertiary' | 'quaternary'
+export type ButtonVariant =
+  | 'primary'
+  | 'secondary'
+  | 'tertiary'
+  | 'quaternary'
+  | 'quinary'
+  | 'senary'
 
 interface ButtonProps {
   href: string
@@ -29,6 +35,8 @@ const Button = ({
     secondary: 'btn-secondary',
     tertiary: 'btn-tertiary',
     quaternary: 'btn-quaternary',
+    quinary: 'btn-quinary',
+    senary: 'btn-senary',
   }
   return (
     <a

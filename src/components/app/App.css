@@ -150,15 +150,21 @@ body {
   }
 
   .btn-primary {
-    background-color: var(--color-green-500);
+    background-color: var(--color-btn-demo-signup);
   }
   .btn-secondary {
-    background-color: var(--color-blue-500);
+    background-color: var(--color-btn-submit-project);
   }
   .btn-tertiary {
-    background-color: var(--color-pink-500);
+    background-color: var(--color-btn-plan-gathering);
   }
   .btn-quaternary {
-    background-color: var(--color-orange-500);
+    background-color: var(--color-btn-get-involved);
+  }
+  .btn-quinary {
+    background-color: var(--color-btn-share-event);
+  }
+  .btn-senary {
+    background-color: var(--color-btn-share-profile);
   }
 }

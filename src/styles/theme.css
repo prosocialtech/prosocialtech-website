@@ -2,14 +2,15 @@
   /* override the colour namespace with custom values */
   --color-*: initial;
 
-  --color-blue-500: #b0e9fe;
   --color-blue-900: #23194a;
 
-  --color-pink-500: #efceff;
-
-  --color-orange-500: #ffd09b;
-
-  --color-green-500: #baf4af;
+  /* Button colors */
+  --color-btn-get-involved: #f6b26b;
+  --color-btn-plan-gathering: #d9b2e9;
+  --color-btn-share-event: #ffe599;
+  --color-btn-demo-signup: #a2e4d3;
+  --color-btn-submit-project: #c9daf8;
+  --color-btn-share-profile: #f4cccc;
 
   --color-black: #000000;
 

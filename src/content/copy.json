@@ -9,9 +9,9 @@
     },
     "buttons": [
       {
-        "label": "Get Involved",
+        "label": "PTC Guide",
         "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Collab",
-        "href": "https://docs.google.com/forms/d/1P0B5vMC9FdvOCCGC8UhxbQDcjVrK2eXltHj1NH0vCpY/viewform?edit_requested=true"
+        "href": "https://imaginary-tree-a69.notion.site/Prosocial-Tech-Collab-Community-Guide-2a9986ce77c18075bd38e13e5b89b650"
       },
       {
         "label": "Join Slack",
@@ -19,9 +19,9 @@
         "href": "https://join.slack.com/t/prosocialtechcollab/shared_invite/zt-3cgnv89zo-jChT84ilD5Lftm0pi9yRxw"
       },
       {
-        "label": "Give Input",
-        "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Collab",
-        "href": "https://docs.google.com/forms/d/11KxjunnXiuMPjpHoQP0dW4vYxIOa67erDwYVUUkSKWw/viewform?usp=drivesdk&edit_requested=true"
+        "label": "Resources",
+        "ariaLabel": "View resources and ways to engage with Prosocial Tech Collab",
+        "href": "#engage"
       }
     ]
   },
@@ -56,44 +56,60 @@
   },
   "engage": {
     "title": "Multiple Ways to Engage",
-    "body": "In addition to serving as a space to find or share prosocial tech projects to collaborate on, our Slack group is where you’ll find info about upcoming project demos, social gatherings, support sessions, and small group discussions.",
+    "body": "PTC is a space to discover and share prosocial tech projects, connect with like-minded peers, find support, and bring people together through relevant gatherings and discussions.\n\nWe have a <strong>Community Directory</strong> for people to discover each other outside of the #introductions channel in our Slack workspace, as well as a <strong>Prosocial Tech Portfolio</strong> that catalogues some of the projects members of our community are working on.\n\nAdditionally, we offer our community members the opportunity to demo their projects to likeminded individuals, share relevant events, and organize their own PTC gatherings.",
     "actions": [
       {
-        "description": "If you want to help organize PTC or moderate on Slack:",
+        "description": "To get involved with PTC as a volunteer or partner:",
         "button": {
           "label": "Get Involved",
-          "ariaLabel": "Get involved with organizing or moderating Prosocial Tech Collab",
-          "href": "https://docs.google.com/forms/d/1P0B5vMC9FdvOCCGC8UhxbQDcjVrK2eXltHj1NH0vCpY/viewform?edit_requested=true"
+          "ariaLabel": "Get involved with PTC as a volunteer or partner",
+          "href": "https://forms.fillout.com/t/so68yZWjpJus"
         }
       },
       {
-        "description": "To become a member of our Slack group:",
+        "description": "To organize a gathering for the community:",
         "button": {
-          "label": "Join Slack",
-          "ariaLabel": "Join the Prosocial Tech Collab Slack group",
-          "href": "https://join.slack.com/t/prosocialtechcollab/shared_invite/zt-3cgnv89zo-jChT84ilD5Lftm0pi9yRxw"
+          "label": "Plan Gathering",
+          "ariaLabel": "Organize a gathering for the community",
+          "href": "https://forms.fillout.com/t/aLE5KU2kHius"
         }
       },
       {
-        "description": "If you have feedback or ideas you'd like to share:",
+        "description": "To share a relevant event with the community:",
         "button": {
-          "label": "Give Input",
-          "ariaLabel": "Provide feedback or share ideas with Prosocial Tech Collab",
-          "href": "https://docs.google.com/forms/d/11KxjunnXiuMPjpHoQP0dW4vYxIOa67erDwYVUUkSKWw/viewform?usp=drivesdk&edit_requested=true"
+          "label": "Share Event",
+          "ariaLabel": "Share a relevant event with the community",
+          "href": "https://forms.fillout.com/t/nM6YMe18Mpus"
         }
       },
       {
-        "description": "If you want to Demo a project:",
+        "description": "To demo your project to the community:",
         "button": {
-          "label": "Share Project",
-          "ariaLabel": "Share your project for demo at Prosocial Tech Collab",
-          "href": "https://docs.google.com/forms/d/10HzwdmQyDAkzm6oaoVx2CQE0BjE2ii-m7ZW6w6I8DNg/viewform?usp=drivesdk&edit_requested=true"
+          "label": "Demo Sign-Up",
+          "ariaLabel": "Demo your project to the community",
+          "href": "https://forms.fillout.com/t/gJwJbQZA46us"
+        }
+      },
+      {
+        "description": "To add your project to the Prosocial Tech Portfolio:",
+        "button": {
+          "label": "Submit Project",
+          "ariaLabel": "Add your project to the Prosocial Tech Portfolio",
+          "href": "https://forms.fillout.com/t/rYa89j7tZnus"
+        }
+      },
+      {
+        "description": "To add your profile to the PTC Community Directory:",
+        "button": {
+          "label": "Share Profile",
+          "ariaLabel": "Add your profile to the PTC Community Directory",
+          "href": "https://forms.fillout.com/t/so68yZWjpJus"
         }
       }
     ]
   },
   "channels": {
-    "title": "PTC Project Channels",
+    "title": "PTC Focus Areas",
     "body": "Whether you’re looking to find collaborators for your current project, want to join someone else’s existing project, or are excited about creating something from scratch with like-minded people, PTC supports a range of different projects, including but not limited to:",
     "list": {
       "appliedSocialMedia": {
@@ -117,14 +133,37 @@
         "description": "For research projects related to prosocial tech, as well as other research-related outputs such as conferences and workshops"
       },
       "responsibleAI": {
-        "title": "RESPONSIBLE AI",
+        "title": "PUBLIC-INTEREST AI",
         "description": "For responsible AI projects that promote prosocial design, such as improving upon recommender systems or developing open-source tools that support prosocial platforms"
       }
     }
   },
+  "upcoming": {
+    "title": "Upcoming Events",
+    "body1": "To make it easier for people in the prosocial tech community to keep track of interesting events, we've created a Community Calendar. In addition to discovering interesting external events, the community calendar is where you’ll find events hosted by PTC, as well as PTC events organized by members of the community.",
+    "body2": "If you come across events that would be of interest to the PTC community, you can share them using this form; you can also submit an idea for a gathering you’d like to organize.",
+    "links": {
+      "calendar": {
+        "label": "Community Calendar",
+        "href": "https://calendar.google.com/calendar/u/0?cid=ZjZhOTIwODZlNjFjMGIxZmY5OGM1YjY4NjAxMWE3ZTJjMDU1YzM4NWMwZjdjYzFlNGY5YzJmYjc4YTMxMTYwMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+      },
+      "share": {
+        "label": "share",
+        "href": "https://forms.fillout.com/t/nM6YMe18Mpus"
+      },
+      "gathering": {
+        "label": "submit an idea for a gathering",
+        "href": "https://forms.fillout.com/t/aLE5KU2kHius"
+      }
+    }
+  },
   "footer": {
-    "title": "We hope to see you there!",
-    "contact": "Have any questions? Reach out to team@prosocialtechcollab.com",
+    "title": "Have any questions?",
+    "contactPrefix": "You can reach out to our team of volunteers by emailing hello@prosocialtech.org, or share ideas and feedback with us using this ",
+    "contactLink": {
+      "label": "form",
+      "href": "https://forms.fillout.com/t/kjsA55Cofxus"
+    },
     "copyright": "© 2025. All Rights Reserved."
   }
 }
