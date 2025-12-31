@@ -41,7 +41,32 @@ function App() {
       <Section variant="dark">
         <Container size="sm" className="text-left space-y-8">
           <h2 className="section-heading-primary">{copy.about.title}</h2>
-          <p className="text-body">{copy.about.body}</p>
+          <div className="space-y-4">
+            {copy.about.body.split('\n\n').map((paragraph, index) => (
+              <p key={index} className="text-body">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+          {copy.about.more && (
+            <div className="space-y-6">
+              <h2 className="section-heading-primary">{copy.about.more.title}</h2>
+              <div className="space-y-4">
+                {copy.about.more.body.split('\n\n').map((paragraph, index) => (
+                  <p key={index} className="text-body">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+              {copy.about.more.image?.src && (
+                <img
+                  src={copy.about.more.image.src}
+                  alt={copy.about.more.image.alt || ''}
+                  className="w-full max-w-4xl rounded-md border border-neutral-800"
+                />
+              )}
+            </div>
+          )}
         </Container>
       </Section>
 
@@ -66,23 +91,38 @@ function App() {
       </Section>
 
       {/* Engage Section */}
-      <Section variant="dark">
+      <Section variant="dark" id="engage">
         <Container size="none" className="text-left space-y-8 max-w-5xl">
           <h2 className="section-heading-primary">{copy.engage.title}</h2>
-          <p className="text-body">{copy.engage.body}</p>
+          <div className="space-y-4">
+            {copy.engage.body.split('\n\n').map((paragraph, index) => (
+              <p
+                key={index}
+                className="text-body"
+                dangerouslySetInnerHTML={{ __html: paragraph }}
+              />
+            ))}
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-2xl max-w-xs mx-auto mt-2xl">
             {copy.engage.actions.map((action, index) => {
-              /* Enforcing that this component will always have 1 of each variant in this order
-              but will likely eventually extend so that the variants and order are customizable*/
-              const variants: ButtonVariant[] = ['primary', 'secondary', 'tertiary', 'quaternary']
+              /* Specific button variants for each button */
+              const variants: ButtonVariant[] = [
+                'quaternary',
+                'tertiary',
+                'quinary',
+                'primary',
+                'secondary',
+                'senary',
+              ]
               const button = action.button
+              const variant = variants[index]
               return (
                 <div key={index} className="flex flex-col items-center text-center gap-4">
                   <p className="text-body">{action.description}</p>
                   <Button
                     href={button.href}
                     ariaLabel={button.ariaLabel}
-                    variant={variants[index]}
+                    variant={variant}
                     target="_blank"
                   >
                     {button.label}
@@ -110,12 +150,62 @@ function App() {
         </Container>
       </Section>
 
-      {/* Footer Section */}
+      {/* Upcoming Events & Footer Section */}
       <Section variant="dark">
-        <Container size="md" className="text-left space-y-8">
-          <h2 className="section-heading-primary">{copy.footer.title}</h2>
-          <p className="text-body">{copy.footer.contact}</p>
-          <p className="text-body">{copy.footer.copyright}</p>
+        <Container size="md" className="text-left space-y-10">
+          <div className="space-y-6">
+            <h2 className="section-heading-primary">{copy.upcoming.title}</h2>
+            <p className="text-body">
+              {copy.upcoming.body1.split('Community Calendar')[0]}
+              <a
+                href={copy.upcoming.links.calendar.href}
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                {copy.upcoming.links.calendar.label}
+              </a>
+              {copy.upcoming.body1.split('Community Calendar')[1]}
+            </p>
+            <p className="text-body">
+              {copy.upcoming.body2.split('share')[0]}
+              <a
+                href={copy.upcoming.links.share.href}
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                {copy.upcoming.links.share.label}
+              </a>
+              {copy.upcoming.body2.split('share')[1].split('submit an idea for a gathering')[0]}
+              <a
+                href={copy.upcoming.links.gathering.href}
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                {copy.upcoming.links.gathering.label}
+              </a>
+              {copy.upcoming.body2.split('submit an idea for a gathering')[1]}
+            </p>
+          </div>
+
+          <div className="space-y-4">
+            <h2 className="section-heading-primary">{copy.footer.title}</h2>
+            <p className="text-body">
+              {copy.footer.contactPrefix}
+              <a
+                href={copy.footer.contactLink.href}
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                {copy.footer.contactLink.label}
+              </a>
+              .
+            </p>
+            <p className="text-body">{copy.footer.copyright}</p>
+          </div>
         </Container>
       </Section>
     </Layout>

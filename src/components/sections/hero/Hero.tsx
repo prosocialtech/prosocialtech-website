@@ -47,6 +47,8 @@ const Hero = ({ data }: HeroProps) => {
           )}
           <div className="flex flex-col sm:flex-row gap-4 sm:gap-lg sm:justify-center w-full">
             {data.buttons.map((button, index) => {
+              // Only open external links in new tab, not anchor links
+              const isExternalLink = button.href.startsWith('http')
               return (
                 //   Using index as key for now since buttons list is stable
                 <Button
@@ -54,7 +56,7 @@ const Hero = ({ data }: HeroProps) => {
                   href={button.href}
                   variant={HERO_BUTTON_VARIANTS[index]}
                   ariaLabel={button.ariaLabel}
-                  target="_blank"
+                  target={isExternalLink ? '_blank' : undefined}
                 >
                   {button.label}
                 </Button>
