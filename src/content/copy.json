@@ -145,7 +145,7 @@
     "links": {
       "calendar": {
         "label": "Community Calendar",
-        "href": "https://calendar.google.com/calendar/u/0?cid=ZjZhOTIwODZlNjFjMGIxZmY5OGM1YjY4NjAxMWE3ZTJjMDU1YzM4NWMwZjdjYzFlNGY5YzJmYjc4YTMxMTYwMEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+        "href": "https://calendar.google.com/calendar/u/0/embed?src=f6a92086e61c0b1ff98c5b686011a7e2c055c385c0f7cc1e4f9c2fb78a311600@group.calendar.google.com&ctz=America/Los_Angeles"
       },
       "share": {
         "label": "share",
