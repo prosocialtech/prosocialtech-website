@@ -167,6 +167,14 @@ function App() {
               </a>
               {copy.upcoming.body1.split('Community Calendar')[1]}
             </p>
+            <div className="mt-8 overflow-hidden rounded-lg border border-white/15 bg-black/20 shadow-lg">
+              <iframe
+                title="Community calendar — month view"
+                src={copy.upcoming.links.calendar.embedSrc}
+                className="h-[min(70vh,720px)] w-full min-h-[480px] border-0"
+                loading="lazy"
+              />
+            </div>
             <p className="text-body">
               {copy.upcoming.body2.split('share')[0]}
               <a
