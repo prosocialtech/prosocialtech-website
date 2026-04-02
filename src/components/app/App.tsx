@@ -37,7 +37,7 @@ function App() {
     <Layout>
       <Hero data={copy.hero} />
 
-      {/* About Section */}
+      {/* About & Upcoming Events Section */}
       <Section variant="dark">
         <Container size="sm" className="text-left space-y-8">
           <h2 className="section-heading-primary">{copy.about.title}</h2>
@@ -48,25 +48,50 @@ function App() {
               </p>
             ))}
           </div>
-          {copy.about.more && (
-            <div className="space-y-6">
-              <h2 className="section-heading-primary">{copy.about.more.title}</h2>
-              <div className="space-y-4">
-                {copy.about.more.body.split('\n\n').map((paragraph, index) => (
-                  <p key={index} className="text-body">
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
-              {copy.about.more.image?.src && (
-                <img
-                  src={copy.about.more.image.src}
-                  alt={copy.about.more.image.alt || ''}
-                  className="w-full max-w-4xl rounded-md border border-neutral-800"
-                />
-              )}
+          <div className="space-y-6">
+            <h2 className="section-heading-primary">{copy.upcoming.title}</h2>
+            <p className="text-body">
+              {copy.upcoming.body1.split('Community Calendar')[0]}
+              <a
+                href={copy.upcoming.links.calendar.href}
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                {copy.upcoming.links.calendar.label}
+              </a>
+              {copy.upcoming.body1.split('Community Calendar')[1]}
+            </p>
+            <div className="mt-8 overflow-hidden rounded-lg border border-white/15 bg-black/20 shadow-lg">
+              <iframe
+                title="Community calendar — month view"
+                src={copy.upcoming.links.calendar.embedSrc}
+                className="h-[min(70vh,720px)] w-full min-h-[480px] border-0"
+                loading="lazy"
+              />
             </div>
-          )}
+            <p className="text-body">
+              {copy.upcoming.body2.split('share')[0]}
+              <a
+                href={copy.upcoming.links.share.href}
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                {copy.upcoming.links.share.label}
+              </a>
+              {copy.upcoming.body2.split('share')[1].split('submit an idea for a gathering')[0]}
+              <a
+                href={copy.upcoming.links.gathering.href}
+                target="_blank"
+                rel="noreferrer"
+                className="underline"
+              >
+                {copy.upcoming.links.gathering.label}
+              </a>
+              {copy.upcoming.body2.split('submit an idea for a gathering')[1]}
+            </p>
+          </div>
         </Container>
       </Section>
 
@@ -150,53 +175,28 @@ function App() {
         </Container>
       </Section>
 
-      {/* Upcoming Events & Footer Section */}
+      {/* About more & Footer Section */}
       <Section variant="dark">
         <Container size="md" className="text-left space-y-10">
-          <div className="space-y-6">
-            <h2 className="section-heading-primary">{copy.upcoming.title}</h2>
-            <p className="text-body">
-              {copy.upcoming.body1.split('Community Calendar')[0]}
-              <a
-                href={copy.upcoming.links.calendar.href}
-                target="_blank"
-                rel="noreferrer"
-                className="underline"
-              >
-                {copy.upcoming.links.calendar.label}
-              </a>
-              {copy.upcoming.body1.split('Community Calendar')[1]}
-            </p>
-            <div className="mt-8 overflow-hidden rounded-lg border border-white/15 bg-black/20 shadow-lg">
-              <iframe
-                title="Community calendar — month view"
-                src={copy.upcoming.links.calendar.embedSrc}
-                className="h-[min(70vh,720px)] w-full min-h-[480px] border-0"
-                loading="lazy"
-              />
+          {copy.about.more && (
+            <div className="space-y-6">
+              <h2 className="section-heading-primary">{copy.about.more.title}</h2>
+              <div className="space-y-4">
+                {copy.about.more.body.split('\n\n').map((paragraph, index) => (
+                  <p key={index} className="text-body">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+              {copy.about.more.image?.src && (
+                <img
+                  src={copy.about.more.image.src}
+                  alt={copy.about.more.image.alt || ''}
+                  className="w-full max-w-4xl rounded-md border border-neutral-800"
+                />
+              )}
             </div>
-            <p className="text-body">
-              {copy.upcoming.body2.split('share')[0]}
-              <a
-                href={copy.upcoming.links.share.href}
-                target="_blank"
-                rel="noreferrer"
-                className="underline"
-              >
-                {copy.upcoming.links.share.label}
-              </a>
-              {copy.upcoming.body2.split('share')[1].split('submit an idea for a gathering')[0]}
-              <a
-                href={copy.upcoming.links.gathering.href}
-                target="_blank"
-                rel="noreferrer"
-                className="underline"
-              >
-                {copy.upcoming.links.gathering.label}
-              </a>
-              {copy.upcoming.body2.split('submit an idea for a gathering')[1]}
-            </p>
-          </div>
+          )}
 
           <div className="space-y-4">
             <h2 className="section-heading-primary">{copy.footer.title}</h2>
